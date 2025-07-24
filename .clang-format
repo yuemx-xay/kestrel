@@ -1,0 +1,31 @@
+BasedOnStyle: LLVM
+
+
+UseTab: Never
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 4
+
+
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackParameters: false
+#PenaltyBreakBeforeFirstCallParameter: 60
+#
+BraceWrapping:
+  AfterFunction: false
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterNamespace: false
+  AfterStruct: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+ColumnLimit: 80
+
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: false
+SpaceBeforeParens: ControlStatements
+BreakBeforeBraces: Attach

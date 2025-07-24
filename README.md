@@ -1,2 +1,1 @@
-# kestrel
-personal drone
+# Kestrel start
